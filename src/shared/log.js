@@ -1,8 +1,8 @@
 'use strict'
 
 let l = (method, str) => {
-  if (!console || !console[method]) return;
-  console[method](`[todomvc++] ${str}`);
+    if (!console || !console[method]) return;
+    console[method](`[todomvc++] ${str}`);
 };
 
 let log = (str) => l('log', str);
